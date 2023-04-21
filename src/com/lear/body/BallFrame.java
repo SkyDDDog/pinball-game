@@ -17,7 +17,6 @@ public class BallFrame extends JPanel {
     private boolean endFlag = false;
     private GameTimer timer;
 
-    // 随机数对象
     private final Random random = new Random();
 
     public BallFrame(int ballNum) {
